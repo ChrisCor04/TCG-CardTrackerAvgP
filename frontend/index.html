@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="backscreen">
+        <div class="List">
+            <h2>Yu-Gi-Oh! Card Tracker<img src="/frontend/images/milleniumpuz.jpeg" alt="Millennium Puzzle"></h2><br>
+            <h3>Search Your Card by it's SetID (ex. DUNE-EN056)</h3>
+            <div class="userInputs">
+                
+                <input type="text" id="user-card" placeholder="Enter Card SetID Here ">
+                <button onclick="addCard()">Add</button>
+            </div>
+            <ul class="listCN" id="list-container"></ul> <!-- Card Names List -->
+        </div>
+
+        <div class="price-screen">
+            <h2>Card Prices<img src="images/moneyicon.png" alt="Money Icon">&nbsp;&nbsp;&nbsp;&nbsp; Enter Your Card and Track its TCGPlayer Average Price</h2><br>
+            <div class="price-list">
+                <h2>Card Name & Average Price</h2>
+                <ul class="listP" id="list-prices"></ul> <!-- Prices List -->
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.backscreen {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(180, 184, 110), rgb(225, 200, 131));
+    padding: 10px;
+}
+
+.List {
+    width: 400px;
+    height: 800px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.List h2 {
+    color: #0a0a0a;
+    display: flex;
+    align-items: center;
+}
+
+.List h2 img {
+    width: 60px;
+}
+.List h3{
+    color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.userInputs {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(204, 204, 208);
+    border-radius: 40px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+
+
+input {
+    background: transparent;
+    border: none;
+    flex: 1;
+    outline: none;
+    padding: 10px;
+    font-weight: 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 40px;
+    background: rgb(0, 0, 0);
+}
+
+
+
+.listCN li {
+    /* Styles for list items in the card names list */
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 30px;
+    position: relative;
+}
+
+.listCN li::before {
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: url(/frontend/images/milleniumpuz.jpeg); 
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 5px;
+}
+
+.listCN li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.listCN li span:hover {
+    cursor: pointer;
+    background: #edeef0;
+}
+
+
+.price-screen {
+    width: 900px;
+    height: 800px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.price-screen h2 {
+    display: flex;
+    align-items: center;
+}
+
+.price-screen h2 img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.price-list {
+    width: 850px;
+    height: 700px;
+    background: #8b8b8b;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+.listP li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 30px;
+    position: relative;
+}
+
+.price-list h2{
+    margin-left: 26px;
+}
