@@ -78,7 +78,7 @@ button {
     /* Styles for list items in the card names list */
     list-style: none;
     font-size: 17px;
-    padding: 12px 8px 12px 30px;
+    padding: 12px 8px 12px 20px;
     position: relative;
 }
 
@@ -88,11 +88,11 @@ button {
     height: 25px;
     width: 25px;
     border-radius: 50%;
-    background-image: url(/frontend/images/milleniumpuz.jpeg); 
+    
     background-size: cover;
     background-position: center;
     top: 12px;
-    left: 5px;
+    left: 2px;
 }
 
 .listCN li span {
